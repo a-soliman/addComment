@@ -1,0 +1,41 @@
+.comment {
+	text-align: center;
+	margin-top: 20px;
+	padding: 10px 100px;
+}
+.comment label {
+	float: left;
+	color: #4CAF50;
+}
+.header h1 {
+	background-color: #6dce6d;
+	color: white;
+	font-weight: 800;
+	border-radius: 30px;
+	padding: 10px;
+}
+.comment hr {
+	background-color: #6dce6d;
+	height: 5px;
+}
+.result {
+	border: 1px solid green;
+	border-radius: 50px;
+	min-height: 200px;
+	margin: 50px 100px;
+
+}
+.result h1 {
+	color: #3e7c3e;
+}
+.result p {
+	color: #66c666;
+	margin-left: 30px;
+}
+.result img {
+	max-width: 50px;
+	float: left;
+	margin-left: 20px;
+    margin-top: 12px;
+    margin-right: 10px;
+}
