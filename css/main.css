@@ -1,18 +1,32 @@
-.comment {
-	text-align: center;
-	margin-top: 20px;
-	padding: 10px 100px;
+.back {
+	min-height: 950px;
+	background-image: url(../img/green-background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
 }
-.comment label {
-	float: left;
-	color: #4CAF50;
+.wrapper {
+	border: 6px double #6dce6d;
+	border-radius: 50px;
+	margin: 50px auto;
+	padding: 10px;
+	background-color: whitesmoke;
 }
+
 .header h1 {
 	background-color: #6dce6d;
 	color: white;
 	font-weight: 800;
 	border-radius: 30px;
 	padding: 10px;
+	margin-bottom: 30px;
+}
+.comment {
+	text-align: center;
+	padding: 10px 100px;
+}
+.comment label {
+	float: left;
+	color: #4CAF50;
 }
 .comment hr {
 	background-color: #6dce6d;
@@ -23,10 +37,13 @@
 	border-radius: 50px;
 	min-height: 200px;
 	margin: 50px 100px;
+	background-color: white;
+	padding: 10px;
 
 }
 .result h1 {
 	color: #3e7c3e;
+	margin-left: 1em;
 }
 .result p {
 	color: #66c666;
@@ -36,6 +53,25 @@
 	max-width: 50px;
 	float: left;
 	margin-left: 20px;
-    margin-top: 12px;
     margin-right: 10px;
+}
+
+@media (max-width: 650px) {
+	.header h1 {
+		font-size: 1.5em;
+	}
+	.comment {
+		padding: 0;
+	}
+	.result {
+		margin: 20px 0;
+		padding: 0 10px;
+	}
+	.result h1 {
+		font-size: 2em;
+		margin-bottom: 0;
+	}
+	.result img {
+		max-width: 40px;
+	}
 }
