@@ -9,45 +9,61 @@
 	</head>
 	<body>
 		<div class="container-fluid back">
-		<section class="container">
-		<div class="wrapper">
-		 <div class="col-xs-4 col-offset-xs-4"></div>
-		<div class="comment">
-			<div class="header">
-				<h1>Add Comment Web - App.</h1>
-			</div>
-			<form role= "form">
-				<div class="form-group">
-					<label for="text">Username</label>
-					<input  class="form-control" type="text" name="" id="username" placeholder="John">
-					<label for="text">comment</label>
-					<textarea class="form-control" id="comment" placeholder="write your comment here"></textarea>
+			<div class="container">
+				
+				 <div class="col-xs-12">
+				 <div class="wrapper">
+				<div class="comment">
+					<div class="header">
+						<h1>Add Comment Web - App.</h1>
+					</div>
+					<form role= "form">
+						<div class="form-group">
+							<label for="text">Username</label>
+							<input  class="form-control" type="text" name="" id="username" placeholder="John">
+							<label for="text">comment</label>
+							<textarea class="form-control" id="comment" placeholder="write your comment here"></textarea>
 
-					<br/>
+							<br/>
+							
+							<hr/>
+
+							<br/>
+
+
+							<label for="text">Image</label>
+							<input  class="form-control" type="text" name="" id="image" placeholder="paste an image URL">
+
+							
+						</div> <!-- formgroup -->
+					</form>
+					<button class="btn btn-success btn-lg" id="addComment" onclick="addComment()">Add Comment</button>
+				</div>
+				<!-- </section> container -->
+				
+				<!-- <section class="container"> -->
+					<div class="result">
+						<div id="toShow">
+							
+						</div> <!-- to show -->
+					</div> <!-- to show & result -->
+
+					<!--DELETE BUTTON-->
+					<div class="row">
+						<div class="delete">
+							<button class="btn btn-danger btn-md" onclick="doDelete()">D</button>
+						</div>
+					</div>
+
 					
-					<hr/>
 
-					<br/>
-
-
-					<label for="text">Image</label>
-					<input  class="form-control" type="text" name="" id="image" placeholder="paste an image URL">
-
-					
-					</div> <!-- formgroup -->
-
-				</form>
-			<button class="btn btn-success btn-lg" id="addComment" onclick="addComment()">Add Comment</button>
-		</div>
-		<!-- </section> container -->
-		
-		<!-- <section class="container"> -->
-			<div id="toShow" class="result">
-
-			</div> <!-- to show & result -->
-			</div> <!-- wrapper -->
-		</section> <!-- container -->
+					</div><!-- col 2 -->
+					</div> <!-- wrapper -->
+					</div> <!-- col-12 -->
+			</div> <!-- container -->
 		</div> <!-- container-fluid -->
+
+		
 
 
 
