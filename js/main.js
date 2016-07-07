@@ -33,3 +33,13 @@ function addComment() {
  		
 
  	}
+
+function doDelete() {
+ 		
+ 		var toShow = document.getElementById("toShow")
+ 		// This removes the whole div that is the parents of the NODE
+ 		toShow.remove()
+
+	}
+
+ 
